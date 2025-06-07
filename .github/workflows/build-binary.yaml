@@ -14,8 +14,8 @@ jobs:
         run: R CMD INSTALL --build .
       - uses: actions/upload-artifact@v4
         with:
-          path: MiApp_*.zip
-          name: MiApp-windows
+          path: BIOSZEN*.zip
+          name: BIOSZEN-windows
   src:
     runs-on: ubuntu-latest
     steps:
@@ -26,5 +26,5 @@ jobs:
         run: R CMD build .
       - uses: actions/upload-artifact@v4
         with:
-          path: MiApp_*.tar.gz
-          name: MiApp-source
+          path: BIOSZEN_*.tar.gz
+          name: BIOSZEN-source
