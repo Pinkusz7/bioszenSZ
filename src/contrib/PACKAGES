@@ -1,0 +1,10 @@
+Package: BIOSZEN
+Version: 1.0.1
+Depends: R (>= 4.1.0)
+Imports: shiny, ggplot2, plotly, dplyr, tidyr, readxl, openxlsx, zip, rstatix, PMCMRplus,
+          DescTools, broom, viridis, RColorBrewer, gcplyr, patchwork, shinyjs, DT, nortest,
+          officer, rvg, stringr, forcats, tibble, scales, bslib, htmlwidgets, webshot2,
+          shinyBS, multcomp, dunn.test, webshot, ggrepel, rlang
+License: MIT + file LICENSE
+MD5sum: 6c23a78e3ed16b7ec227b1c23535eae2
+NeedsCompilation: no
